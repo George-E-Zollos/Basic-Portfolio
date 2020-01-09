@@ -1,0 +1,18 @@
+nav {
+    background-color: white;
+    margin 0;
+    box-sizing: border-box;
+    padding 0;
+}
+#Your_Name {
+    background-color: #4aaaa5;  
+    width: 200px;
+    color: white;
+    padding 50px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30x 10%;
+}
