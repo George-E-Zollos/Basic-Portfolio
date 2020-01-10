@@ -4,15 +4,25 @@ nav {
     box-sizing: border-box;
     padding 0;
 }
-#Your_Name {
-    background-color: #4aaaa5;  
-    width: 200px;
-    color: white;
-    padding 50px;
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(20, 5%);
+    font-size: 40px;
+    justify-items: center;
+    min-height: 100px;    
 }
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30x 10%;
+.Your-Name {
+    background-color: #4aaaa5;  
+    color: white;
+    grid-column: 4/7;
+}
+.About {
+    grid-column:12/13;
+}
+.Portfolio {
+    grid-column: 13/15;
+}
+.Contact {
+    grid-column 15/17;
 }
