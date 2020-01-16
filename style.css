@@ -6,15 +6,22 @@ body {
     display: flex;
     margin: auto;
     max-width: 960px;
+    justify-content: space-between;
+
 }
 
-.Your-Name {
+.yourName {
     background-color: #4aaaa5;  
     color: white;
-    align-content: left;
-    padding: 30px;
+    padding: 15px;
     margin: 0px;
 }
-.Links {
-    align-content: right;
+.links {
+    padding:15px;
+    vertical-align: middle;
+}
+
+a {
+color: black;
+
 }
