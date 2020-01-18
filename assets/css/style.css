@@ -9,11 +9,26 @@ body {
     justify-content: center;
     margin: 0;
     height: 100%;
+    background-image: url("../images/prism.jpg");
 }
 
 header {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    border-bottom: 1px solid #cccccc;   
+    border-bottom: 1px solid #cccccc;
+    background-color: white;   
+}
+
+img {
+    float: left;
+    margin: 0 15px 15px 0;
+
+}
+
+#pageContainer {
+position: relative;
+min-height: 100vh;
+min-width: 100vw;
+
 }
 
 .container {
@@ -24,6 +39,8 @@ header {
 }
 
 .name {
+    font-size: 30px;
+    font-weight: bold;
     background-color: #4aaaa5;  
     color: white;
     padding: 15px;
@@ -53,10 +70,13 @@ article {
     padding: 15px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
+    line-height: 200%;
+    overflow: auto;
 }
 
 .aboutMe {
     color: #4aaaa5;
+    font-size: 30px;
 }
 
 .fill {
@@ -64,6 +84,9 @@ article {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
+    min-width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -71,6 +94,5 @@ footer {
     border-top: 5px solid #4aaaa5;
     background-color: #666666;
     height: 40px;
-    width: auto;
     margin-top: auto;
 }
