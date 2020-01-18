@@ -4,6 +4,9 @@
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 0;
     height: 100%;
 }
@@ -56,6 +59,10 @@ article {
     color: #4aaaa5;
 }
 
+.fill {
+    flex: 1;
+}
+
 footer {
     display: flex;
     flex-direction: column;
@@ -65,5 +72,5 @@ footer {
     background-color: #666666;
     height: 40px;
     width: auto;
-    margin: auto;
+    margin-top: auto;
 }
