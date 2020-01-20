@@ -96,3 +96,23 @@ footer {
     height: 40px;
     margin-top: auto;
 }
+
+form {
+    margin: 20px auto 40px;
+    max-width: 960px;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    line-height: 200%;
+    overflow: auto;
+    text-align: center;
+}
+
+.userdata {
+    width: 95%;
+}
+
+.formText {
+    margin-right: auto;
+    
+}
