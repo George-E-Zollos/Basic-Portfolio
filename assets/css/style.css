@@ -105,14 +105,29 @@ form {
     background-color: #ffffff;
     line-height: 200%;
     overflow: auto;
-    text-align: center;
+    
 }
 
 .userdata {
-    width: 95%;
+    width: 100%;
+    text-align: start;
 }
 
 .formText {
     margin-right: auto;
     
+}
+
+.button {
+    text-align: center;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 10px 35px;
+    font-size: 16px
+}
+
+#message {
+    resize: vertical;
+    overflow: auto;
+    height: 20rem;
 }
