@@ -21,14 +21,12 @@ header {
 img {
     float: left;
     margin: 0 15px 15px 0;
-
 }
 
 #pageContainer {
 position: relative;
 min-height: 100vh;
 min-width: 100vw;
-
 }
 
 .container {
@@ -43,7 +41,7 @@ min-width: 100vw;
     font-weight: bold;
     background-color: #4aaaa5;  
     color: white;
-    padding: 15px;
+    padding: 20px;
     margin: 0px;
 }
  
@@ -52,22 +50,23 @@ min-width: 100vw;
 }
 
 .links {   
-   padding: 15px;
+   display: flex;
 }
-
 .spacer {
-    padding: 15px;
+    padding: 20px;
     color: grey;
+    align-self: center;
 }
 
 a {
     text-decoration: none;
+    align-self: center;
 }
 
 article {
     margin: 20px auto 40px;
     max-width: 960px;
-    padding: 15px;
+    padding: 15px 25px 25px 25px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
     line-height: 200%;
@@ -93,10 +92,13 @@ footer {
     align-items: center;
     border-top: 5px solid #4aaaa5;
     background-color: #666666;
-    height: 40px;
+    height: 60px;
     margin-top: auto;
 }
 
+.copyright {
+    margin: 10px 0 6px 0;
+}
 form {
     margin: 20px auto 40px;
     max-width: 960px;
@@ -131,3 +133,20 @@ form {
     overflow: auto;
     height: 20rem;
 }
+
+.portfolioImage {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    margin: 30px 30px 5px 0px;
+}
+
+.portfolioimage:nth-child(1) {
+background-image: url("assets/images/Cthulu Wallpaper.jpg" alt="Emerson!!" class="portfolioImage");
+}
+
+<img src="assets/images/Cthulu Wallpaper.jpg" alt="Emerson!!" class="portfolioImage">
+                <img src="assets/images/elden ring wallpaper.jpg" alt="Emerson!!" class="portfolioImage">
+                <img src="assets/images/Gore Game.jpg" alt="Emerson!!" class="portfolioImage">
+                <img src="assets/images/rpg.png" alt="Emerson!!" class="portfolioImage">
+                <img src="assets/images/Souls Like.webp" alt="Emerson!!" class="portfolioImage">
